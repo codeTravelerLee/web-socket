@@ -16,8 +16,15 @@
     <div id="chat"></div>
 
     <input type="text" id="message" placeholder="메시지를 입력해주세요." />
+    
     <button onclick="sendMessage()">전송</button>
     <button onclick="createRoom()">채팅방 생성하기</button>
+    <!-- 공지 영역 -->
+    <div>
+      <h2>공지사항</h2>
+      <div id="notice"></div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.6.1.slim.js"></script>
     <script src="https://congenial-space-spork-p4pw5qj4qxgc7x4j-3000.app.github.dev/socket.io/socket.io.js"></script>
     <script src="script.js"></script>
